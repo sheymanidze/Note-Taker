@@ -51,9 +51,14 @@ app.post('/api/notes', (req, res) => {
 //   res.json(getJson());
 // })
 
+app.delete('/api/notes/:id', (req, res) => {
+  let notes = getJson();
+  let newNotes = notes.filter((rmvNotes) => rmvNotes.id !== parseInt(req.params.id));
+  saveNotes(newNotes);
+  res.json(newNotes);
+});
 
-
-//to index.html
+//access to index.html
 app.get('*', function (req, res) {
   res.sendFile(path.join(__dirname, 'public/index.html'))
 });
@@ -81,7 +86,7 @@ function saveNotes(jsonData) {
 };
 
 
-//hiding the notes
+
 // function deleteNotes(id) {
 //   let json = getJson();
 //   json[id].hide = true;
