@@ -3,7 +3,7 @@
 ## Table of contents
  * [General info](#General-Info)
  * [Specifics](#Specifics)
- * [Video Link](#Video-Link)
+ * [Deployment of application](#Deployment-of-application)
  * [Screenshots](#Screenshots)
  * [Application Code](#Application-Code)
  * [Comments](#Comments)
@@ -15,11 +15,13 @@
 
 # Specifics
 
-# Video Link
+# Deployment of application
 
- You can view a demo of the generator by following the link []()
+ To run a project, please follow the link [https://sheymanidze.herokuapp.com/](https://sheymanidze.herokuapp.com/)
 
 # Screenshots
+
+
 
 # Application Code
 
