@@ -21,7 +21,17 @@
 
 # Screenshots
 
+ Creating new note
 
+ ![new note](/public/assets/images/1.png)
+
+ Saved new note 
+
+ ![saved new note](/public/assets/images/2.png)
+
+ One of the note deleted
+
+ ![deleted note](/public/assets/images/3.png)
 
 # Application Code
 
